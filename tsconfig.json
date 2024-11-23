@@ -6,6 +6,9 @@
     "forceConsistentCasingInFileNames": true,
     "rootDir": "./src",
     "outDir": "./dist",
+    "paths": {
+      "@/*": ["./*"]
+    },
     "strict": true,
     "skipLibCheck": true
   }
