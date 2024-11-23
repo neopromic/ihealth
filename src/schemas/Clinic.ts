@@ -6,7 +6,6 @@ export type ClinicData = {
     specialty_id: string;
     address: object;
     phone: string;
-    rating: number;
     created_date: Date;
 }
 
@@ -27,10 +26,6 @@ const ClinicSchema = new Schema<Clinic>({
     },
     phone: {
         type: String,
-        required: true
-    },
-    rating: {
-        type: Number,
         required: true
     },
     created_date: {
