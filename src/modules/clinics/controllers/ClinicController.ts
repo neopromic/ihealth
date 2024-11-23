@@ -1,8 +1,8 @@
-import CreateClinicService from "../services/CreateClinicService";
-import FetchClinicsService from "../services/FetchClinicsService";
-import FetchClinicByIdService from "../services/FetchClinicByIdService";
-import UpdateClinicByIdService from "../services/UpdateClinicByIdService";
-import DeleteClinicService from "../services/DeleteClinicService";
+import CreateClinicService from "../services/clinic/CreateClinicService";
+import FetchClinicsService from "../services/clinic/FetchClinicsService";
+import FetchClinicByIdService from "../services/clinic/FetchClinicByIdService";
+import UpdateClinicByIdService from "../services/clinic/UpdateClinicByIdService";
+import DeleteClinicService from "../services/clinic/DeleteClinicService";
 
 interface CreateClinicBody {
   name: string;

@@ -1,4 +1,4 @@
-import Clinic from "../../../schemas/Clinic";
+import Clinic from "../../../../schemas/Clinic";
 
 interface ICreateCliniDto {
   name: string;

@@ -1,4 +1,4 @@
-import Clinic from "../../../schemas/Clinic";
+import Clinic from "../../../../schemas/Clinic";
 
 class DeleteClinicService {
   async execute(id: string) {

@@ -1,4 +1,4 @@
-import Clinic from "../../../schemas/Clinic";
+import Clinic from "../../../../schemas/Clinic";
 
 class UpdateByIdService {
   async execute(id: string, updateClinicDto: any) {
