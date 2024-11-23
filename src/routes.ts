@@ -1,8 +1,8 @@
 import { Router } from "express";
-import clinicRoutes from "./modules/clinics/routes/clinic.routes";
+import { userRouter } from "./modules/users/routes/user.routes";
 
-const routes = Router();
+const router = Router();
 
-routes.use("/clinics", clinicRoutes);
+router.use("/users", userRouter);
 
-export default routes;
+export { router };
