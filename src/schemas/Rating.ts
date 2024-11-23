@@ -5,7 +5,7 @@ export type RatingData = {
     user_id: string;
     note: string;
     comment: string;
-    createdDate: Date;
+    created_date: Date;
 }
 
 export type Rating = Document & RatingData;
@@ -23,7 +23,7 @@ const RatingSchema = new Schema<Rating>({
         type: String,
         required: true
     },
-    createdDate: {
+    created_date: {
         type: Date,
         required: true
     }

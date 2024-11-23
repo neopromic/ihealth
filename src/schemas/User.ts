@@ -8,7 +8,7 @@ export type UserData = {
     phone: string;
     type: "patient" | "doctor";
     clinic_id?: string;
-    createdDate: Date;
+    created_date: Date;
 }
 
 export type User = Document & UserData;
@@ -38,7 +38,7 @@ const UserSchema = new Schema<User>({
         type: String,
         required: false
     },
-    createdDate: {
+    created_date: {
         type: Date,
         required: true
     }
